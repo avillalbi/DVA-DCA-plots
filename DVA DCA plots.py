@@ -4,6 +4,7 @@ Created on Mon May 19 13:50:33 2025
 
 @author: Arno
 """
+Caca
 
 """
 
@@ -262,5 +263,6 @@ def deriv_plots(nb_cell,nb_exp,nb_step,pts_deriv,Bool1,Bool2):
     plt.title(filename,fontweight='bold',fontsize=18)
     if Bool2==True:
         plt.savefig('C:/Users/Arno/Nextcloud/Thèse/Piles/BT-Lab/'+str(file)+'/' +str(filename) + '.svg',transparent=True,format='svg',dpi=1200,bbox_inches='tight',pad_inches=0)
+
 
     plt.show()
